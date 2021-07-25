@@ -5,6 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Cash-Register</title>
+   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
    <div class="container">
@@ -12,14 +13,14 @@
       <p>Welcome, to Cash Register. Your personal Cash Manager App.</p>
       <div class="bill-div">
          <h3>Bill Amount:</h3>
-         <input class="bill-ipt" type="text" placeholder="Enter the bill amount">
+         <input class="bill-ipt" type="number" placeholder="Enter the bill amount">
          <div class="bill-btn">
             <button>Proceed</button>
          </div>
       </div>
       <div class="cash-div">
          <h3>Cash Amount:</h3>
-         <input class="cash-ipt" type="text" placeholder="Enter the bill amount">
+         <input class="cash-ipt" type="number" placeholder="Enter the cash amount">
          <div class="cash-btn">
             <button>Check</button>
          </div>
@@ -27,7 +28,7 @@
       <div class="err-msg">
          <p>Oops! Please Enter a Valid Amount</p>
       </div>
-      <div id="opt">
+      <div class="opt">
          <table>
              <tr>
              <th>Note</td>
