@@ -12,6 +12,8 @@ body{
    margin: auto;
    padding: 0.9rem 0rem;
    background-color: rgba(104, 212, 176, 0.521);
+   border-radius: 10px;
+   box-shadow: 5px 10px 18px #888888;
 }
 
 .container h1{
