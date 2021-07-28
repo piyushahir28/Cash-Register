@@ -76,3 +76,7 @@ table{
 .opt{
    display: none;
 }
+
+.reset-btn{
+   display: none;
+}

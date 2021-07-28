@@ -11,6 +11,7 @@ var errDisplay = document.querySelector(".err-msg");
 var errMessage = document.querySelector("#err-opt");
 var showNotes = document.querySelectorAll(".showNotes");
 var output = document.querySelector(".opt");
+var resetButton = document.querySelector(".reset-btn");
 
 function calNotes(){
    let bill = billAmount.value;
@@ -32,9 +33,14 @@ function calNotes(){
       hideErr();
       cashDisplay.style.display = "none";
       billDisplay.style.display = "none";
+      resetButton.style.display = "block";
       output.style.display = "block";
    }
    
+}
+
+function resetHandler(){
+   location.reload();
 }
 
 function billHandler(){
@@ -60,6 +66,7 @@ function cashHandler(){
 
 billButton.addEventListener("click", billHandler);
 cashButton.addEventListener("click", cashHandler);
+resetButton.addEventListener("click", resetHandler);
 
 function hideErr(){
    errDisplay.style.display = "none";
