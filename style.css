@@ -80,3 +80,33 @@ table{
 .reset-btn{
    display: none;
 }
+
+/* Footer */
+.footer {
+   margin: 3rem 2rem 0rem 2rem;
+   border-top: 2px solid black;
+}
+ 
+.footer div {
+   color: black;
+   text-align: center;
+}
+ 
+.footer p {
+   font-size: 20px;
+   font-weight: 500;
+}
+ 
+.footer a {
+   padding-inline: 2rem;
+   font-size: 29px;
+   color: black;
+   text-decoration: none;
+}
+ 
+.footer .with-para {
+   padding-inline: 0rem;
+   font-size: 20px;
+   color: black;
+   text-decoration: none;
+}
