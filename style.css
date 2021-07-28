@@ -56,14 +56,14 @@ body {
 .opt table,
 td,
 th {
-    padding: 0.5rem;
+    padding: 0.6rem;
     border: 1px solid black;
     border-collapse: collapse;
 }
 
 table {
     width: 100%;
-    table-layout: auto;
+    table-layout: fixed;
 }
 
 .err-msg {
@@ -101,7 +101,7 @@ table {
 }
 
 .footer a {
-    padding-inline: 2rem;
+    padding-inline: 1rem;
     font-size: 29px;
     color: black;
     text-decoration: none;
