@@ -1,6 +1,6 @@
 <h1 align="center">Cash Register</h1>
 
-The cash register is a personal **Cash Manager App**, which helps users to know how many notes of currency 1,5,10, 20,100,500,2000 to return to the customer. This app takes input of bill amount and cash given by the customer. And shows the output of the notes to return.
+The cash register is a personal **Cash Manager App**, which helps the user by telling how can he/she return the change to the customer with minimum number of notes. This app takes input of bill amount and cash given by the customer. And shows the output of the notes to return.
 
 ### Tech Stack:
 
